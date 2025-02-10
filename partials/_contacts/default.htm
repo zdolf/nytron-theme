@@ -1,0 +1,7 @@
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 {% if partial == "_contact/card" %}{% if fluid %}row-cols-xl-5{% else %}row-cols-xl-4{% endif %} g-4{% else %}row-cols-xl-1 g-2{% endif %}">
+    {% for contactItem in content.contacts_category.contacts %}
+        <div class="col">
+            {% partial partial item=contactItem.contact itemUpdate=contactItem %}
+        </div>
+    {% endfor %}
+</div>
