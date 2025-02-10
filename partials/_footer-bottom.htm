@@ -1,0 +1,41 @@
+<div class="bottom container-fluid pt-4 pt-sm-0">
+    <div class="container-lg">
+        <div class="border-top border-1 border-dark py-4">
+            <div class="row row-cols-2 d-flex align-items-center row-cols-md-3">
+                <div class="col order-1 mt-4 col-md mt-md-0 d-flex">
+                    <div class="socials d-inline-flex align-items-center gap-2 justify-content-end">
+                        {% if this.theme.facebook %}
+                            <a href="{{ this.theme.facebook }}" target="_blank" class="d-inline-flex text-decoration-none icon__link icon__link--light">
+                                <i class="ph ph-facebook-logo icon__font"></i>
+                                {#                                    <i class="mi mi-facebook icon"></i>#}
+                            </a>
+                        {% endif %}
+
+                        {% if this.theme.instagram %}
+                            <a href="{{ this.theme.instagram }}" target="_blank" class="d-inline-flex text-decoration-none icon__link icon__link--light">
+                                <i class="ph ph-instagram-logo icon__font"></i>
+                                {#                                    <i class="mi mi-instagram icon"></i>#}
+                            </a>
+                        {% endif %}
+
+                        {% if this.theme.youtube %}
+                            <a href="{{ this.theme.youtube }}" target="_blank" class="d-inline-flex text-decoration-none icon__link icon__link--light">
+                                <i class="ph ph-youtube-logo icon__font"></i>
+                            </a>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="col-12 order-0 d-flex justify-content-center col-md order-md-1">
+                    &copy; {{ "now"|date("Y") }}, Nytron s.r.o.
+                </div>
+
+                <div class="col order-1 mt-4 col-md mt-md-0">
+                    <p class="mb-0 d-flex justify-content-end">
+                        <a href="https://www.hucr.cz" target="_blank" class="mi-signature"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

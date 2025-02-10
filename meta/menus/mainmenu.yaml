@@ -9,7 +9,7 @@ items:
         cmsPage: page
         replace: null
         viewBag:
-            isHidden: '0'
+            isHidden: '1'
             cssClass: ''
             isExternal: '0'
     -
@@ -22,7 +22,7 @@ items:
         cmsPage: null
         replace: null
         viewBag:
-            isHidden: '0'
+            isHidden: '1'
             cssClass: ''
             isExternal: '0'
     -
@@ -35,7 +35,7 @@ items:
         cmsPage: null
         replace: null
         viewBag:
-            isHidden: '0'
+            isHidden: '1'
             cssClass: ''
             isExternal: '0'
     -
@@ -48,43 +48,15 @@ items:
         cmsPage: null
         replace: null
         viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
-    -
-        title: 'Sociální služby'
-        nesting: null
-        type: header
-        url: null
-        code: ''
-        reference: null
-        cmsPage: null
-        replace: null
-        viewBag:
-            isHidden: '0'
+            isHidden: '1'
             cssClass: ''
             isExternal: '0'
     -
         title: Kontakt
-        type: page
-        code: ''
-        reference: '12'
-        cmsPage: page
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
-    -
-        title: 'Volná místa'
-        nesting: null
         type: header
-        url: null
         code: ''
-        reference: null
-        cmsPage: null
-        replace: null
         viewBag:
-            isHidden: '0'
+            isHidden: '1'
             cssClass: ''
             isExternal: '0'
 name: 'Main Menu'

@@ -24,7 +24,9 @@ sortOrder = "published_at desc"
                 </h2>
             {% endif %}
 
-            {% if block.type == "slider" %}
+            {% if block.type == "text" %}
+                {{ block.text|raw|bootstrap }}
+            {% elseif block.type == "slider" %}
                 {% partial "_swiper/slider" slides=block.slider.slides settings=block.slider %}
             {% elseif block.type == "image_text" %}
                 {% partial "_block/image-text.htm" image=block.image text=block.text heading=block.heading switched=block.switch_order size="lg" %}

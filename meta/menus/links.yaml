@@ -3,7 +3,7 @@ items:
         title: 'Nastavení cookies'
         type: page
         code: ''
-        reference: '6'
+        reference: '1'
         cmsPage: page
         viewBag:
             isHidden: '0'
@@ -13,7 +13,7 @@ items:
         title: GDPR
         type: page
         code: ''
-        reference: '7'
+        reference: '2'
         cmsPage: page
         viewBag:
             isHidden: '0'
